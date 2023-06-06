@@ -1,0 +1,119 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 90px;
+  font-family: monospace;
+  color: deepskyblue;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerBtn {
+  text-align: center;
+}
+
+#beginBtn {
+  font-size: 50px;
+  padding: 20px;
+  background-color: blue;
+  color: aliceblue;
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+#beginBtn:hover {
+  cursor: pointer;
+}
+
+.highestScore {
+  text-align: center;
+  margin-top: 4%;
+}
+
+#game {
+  height: 100vh;
+  
+  
+}
+
+#currentHighest {
+  background-color: blue;
+  font-size: 40px;
+  background-color: rgb(255, 47, 0);
+  color: aliceblue;
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 1%;
+}
+
+.score {
+  display: none;
+  position: relative;
+  left: 12%;
+  justify-content: center;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  padding: 1%;
+  font-size: 50px;
+  background-color: blue;
+  color: aliceblue;
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 30px;
+  
+}
+
+.color {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: none;
+  box-sizing: border-box;
+  
+}
+
+.containerRestartBtn {
+  text-align: center;
+}
+
+#winner {
+  display: none;
+  font-size: 50px;
+  padding: 20px;
+  background-color: blue;
+  color: aliceblue;
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#youWon {
+  text-align: center;
+}
+
+#restartBtn {
+  display: none;
+  font-size: 70px;
+  font-family: monospace;
+  border-radius: 30px;
+  padding: 20px;
+  color: green;
+  margin-bottom: 40px;
+  background-color: orange;
+  
+}
